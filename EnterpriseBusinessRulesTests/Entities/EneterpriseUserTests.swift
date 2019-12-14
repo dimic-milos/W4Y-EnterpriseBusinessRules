@@ -1,5 +1,5 @@
 //
-//  UserTests.swift
+//  EneterpriseUserTests.swift
 //  EnterpriseBusinessRulesTests
 //
 //  Created by Dimic Milos on 12/12/19.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import EnterpriseBusinessRules
 
-class UserTests: XCTestCase {
+class EneterpriseUserTests: XCTestCase {
 
     func test_init_subscriptionIsNil_subscriptionIsSetToNil() {
         // Given

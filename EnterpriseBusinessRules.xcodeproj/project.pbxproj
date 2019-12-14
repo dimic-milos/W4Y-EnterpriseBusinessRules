@@ -10,10 +10,11 @@
 		E9FEFE9223A2420A0023C9A3 /* EnterpriseBusinessRules.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FEFE8823A2420A0023C9A3 /* EnterpriseBusinessRules.framework */; };
 		E9FEFE9723A2420A0023C9A3 /* EnterpriseBusinessRulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEFE9623A2420A0023C9A3 /* EnterpriseBusinessRulesTests.swift */; };
 		E9FEFE9923A2420A0023C9A3 /* EnterpriseBusinessRules.h in Headers */ = {isa = PBXBuildFile; fileRef = E9FEFE8B23A2420A0023C9A3 /* EnterpriseBusinessRules.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9FEFEA423A2444A0023C9A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEFEA323A2444A0023C9A3 /* User.swift */; };
-		E9FEFEA723A244830023C9A3 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEFEA623A244830023C9A3 /* UserTests.swift */; };
+		E9FEFEA423A2444A0023C9A3 /* EneterpriseUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEFEA323A2444A0023C9A3 /* EneterpriseUser.swift */; };
+		E9FEFEA723A244830023C9A3 /* EneterpriseUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEFEA623A244830023C9A3 /* EneterpriseUserTests.swift */; };
 		E9FEFEA923A247740023C9A3 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEFEA823A247740023C9A3 /* Subscription.swift */; };
 		E9FEFEAB23A247870023C9A3 /* SubscriptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEFEAA23A247870023C9A3 /* SubscriptionTests.swift */; };
+		E9FEFEC823A4D6130023C9A3 /* EneterpriseMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEFEC723A4D6130023C9A3 /* EneterpriseMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +34,11 @@
 		E9FEFE9123A2420A0023C9A3 /* EnterpriseBusinessRulesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnterpriseBusinessRulesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FEFE9623A2420A0023C9A3 /* EnterpriseBusinessRulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseBusinessRulesTests.swift; sourceTree = "<group>"; };
 		E9FEFE9823A2420A0023C9A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9FEFEA323A2444A0023C9A3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		E9FEFEA623A244830023C9A3 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		E9FEFEA323A2444A0023C9A3 /* EneterpriseUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EneterpriseUser.swift; sourceTree = "<group>"; };
+		E9FEFEA623A244830023C9A3 /* EneterpriseUserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EneterpriseUserTests.swift; sourceTree = "<group>"; };
 		E9FEFEA823A247740023C9A3 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 		E9FEFEAA23A247870023C9A3 /* SubscriptionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTests.swift; sourceTree = "<group>"; };
+		E9FEFEC723A4D6130023C9A3 /* EneterpriseMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EneterpriseMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		E9FEFE8A23A2420A0023C9A3 /* EnterpriseBusinessRules */ = {
 			isa = PBXGroup;
 			children = (
+				E9FEFEC723A4D6130023C9A3 /* EneterpriseMain.swift */,
 				E9FEFEA223A242480023C9A3 /* Entities */,
 				E9FEFE8B23A2420A0023C9A3 /* EnterpriseBusinessRules.h */,
 				E9FEFE8C23A2420A0023C9A3 /* Info.plist */,
@@ -99,7 +102,7 @@
 		E9FEFEA223A242480023C9A3 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				E9FEFEA323A2444A0023C9A3 /* User.swift */,
+				E9FEFEA323A2444A0023C9A3 /* EneterpriseUser.swift */,
 				E9FEFEA823A247740023C9A3 /* Subscription.swift */,
 			);
 			path = Entities;
@@ -108,7 +111,7 @@
 		E9FEFEA523A244630023C9A3 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				E9FEFEA623A244830023C9A3 /* UserTests.swift */,
+				E9FEFEA623A244830023C9A3 /* EneterpriseUserTests.swift */,
 				E9FEFEAA23A247870023C9A3 /* SubscriptionTests.swift */,
 			);
 			path = Entities;
@@ -225,7 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9FEFEA923A247740023C9A3 /* Subscription.swift in Sources */,
-				E9FEFEA423A2444A0023C9A3 /* User.swift in Sources */,
+				E9FEFEC823A4D6130023C9A3 /* EneterpriseMain.swift in Sources */,
+				E9FEFEA423A2444A0023C9A3 /* EneterpriseUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9FEFEA723A244830023C9A3 /* UserTests.swift in Sources */,
+				E9FEFEA723A244830023C9A3 /* EneterpriseUserTests.swift in Sources */,
 				E9FEFEAB23A247870023C9A3 /* SubscriptionTests.swift in Sources */,
 				E9FEFE9723A2420A0023C9A3 /* EnterpriseBusinessRulesTests.swift in Sources */,
 			);

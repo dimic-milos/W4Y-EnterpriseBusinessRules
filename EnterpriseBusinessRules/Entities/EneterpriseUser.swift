@@ -1,5 +1,5 @@
 //
-//  User.swift
+//  EneterpriseUser.swift
 //  EnterpriseBusinessRules
 //
 //  Created by Dimic Milos on 12/12/19.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct User {
+public struct EneterpriseUser {
     
     let id: UUID
     private (set) var subscription: Subscription?
@@ -18,7 +18,7 @@ struct User {
         self.subscription = subscription
     }
     
-    var shouldShowAds: Bool {
+    public var shouldShowAds: Bool {
         if let subscription = subscription {
             switch subscription {
                 
